@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  php:
+    build: .
+    container_name: nyt-article-explorer
+    volumes:
+      - .:/var/www
+    working_dir: /var/www
+    tty: true
+    ports:
+      - "8085:8085"  # Ensure port 8085 is exposed
+    command: php -S 0.0.0.0:8085 -t public  # Start PHP built-in server on port 8085

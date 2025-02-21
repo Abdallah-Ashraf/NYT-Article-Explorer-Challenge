@@ -1,0 +1,1 @@
+{"version":1,"defects":{"tests\\FavoriteServiceTest::testGetFavorites":8,"tests\\FavoriteServiceTest::testDeleteFavoriteSuccess":8,"tests\\FavoriteServiceTest::testDeleteFavoriteFailure":8},"times":{"tests\\FavoriteServiceTest::testGetFavorites":0.018,"tests\\FavoriteServiceTest::testDeleteFavoriteSuccess":0.001,"tests\\FavoriteServiceTest::testDeleteFavoriteFailure":0.001}}

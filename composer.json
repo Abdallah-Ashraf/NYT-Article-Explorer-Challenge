@@ -1,0 +1,11 @@
+{
+  "name": "nyt/article-explorer",
+  "description": "NYT Article Explorer - A recruitment challenge project",
+  "type": "project",
+  "require": {
+    "firebase/php-jwt": "^6.11"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0"
+  }
+}
