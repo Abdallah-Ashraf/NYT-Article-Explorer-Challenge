@@ -53,6 +53,12 @@ To fetch and set up this project from Git, follow these instructions:
    sqlite3 storage/database.sqlite < migration.sql
 ```
 
+### Default Credentials can be used by default to generate jwt token
+```
+   username :  testuser
+   password :  password123
+```
+
 ### 5. Add Dependencies
 ```bash
    composer require firebase/php-jwt

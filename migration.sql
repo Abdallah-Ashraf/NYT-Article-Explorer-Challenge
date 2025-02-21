@@ -23,3 +23,6 @@ CREATE TABLE rate_limits (
                              request_count INTEGER DEFAULT 0,
                              last_request TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+INSERT INTO "users" ("id", "username", "password", "created_at") VALUES
+    ('1', 'testuser', '$2y$10$vo0HNzJZMt0tCylRGwPxgOb51e7PHQTgcyh09Nl7hMrvOabgZnnWO', '2025-02-21 08:50:27');
